@@ -1,0 +1,70 @@
+@use "../variables/variables" as *;
+@use "../variables/mixins" as *;
+
+h1 {
+  @include responsive-fontsizes($h1, 2);
+  font-weight: 700;
+
+  html[dir=rtl] & {
+    @include responsive-fontsizes($ar-h1, 2);
+  }
+}
+
+h2 {
+  @include responsive-fontsizes($h2, 2);
+  font-weight: 600;
+
+  html[dir=rtl] & {
+    @include responsive-fontsizes($ar-h2, 2);
+  }
+}
+
+h3 {
+  @include responsive-fontsizes($h3, 2);
+  font-weight: 500;
+
+  html[dir=rtl] & {
+    @include responsive-fontsizes($ar-h3, 2);
+  }
+}
+
+h4 {
+  @include responsive-fontsizes($h4, 1);
+  font-weight: 400;
+
+  html[dir=rtl] & {
+    @include responsive-fontsizes($ar-h4, 1);
+  }
+}
+
+h5 {
+  @include responsive-fontsizes($h5, 1);
+  font-weight: 400;
+
+  html[dir=rtl] & {
+    @include responsive-fontsizes($ar-h5, 1);
+  }
+}
+
+h6 {
+  @include responsive-fontsizes($h6, 0.5);
+  font-weight: 400;
+
+  html[dir=rtl] & {
+    @include responsive-fontsizes($ar-h6, 0.5);
+  }
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: hsl(var(--main-heading));
+  margin: 0;
+
+  span {
+    color: hsl(var(--brand-color));
+  }
+}

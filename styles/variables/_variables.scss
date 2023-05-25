@@ -1,0 +1,86 @@
+@use "screens" as *;
+
+$heading-ratio: 0.5rem;
+$h1: 2.5rem - $heading-ratio;
+$h2: 2rem - $heading-ratio;
+$h3: 1.75rem - $heading-ratio;
+$h4: 1.5rem - $heading-ratio;
+$h5: 1.25rem - $heading-ratio;
+$h6: 1rem - $heading-ratio;
+
+$ar-heading-ratio: 0.75rem;
+$ar-h1: 2.5rem - $ar-heading-ratio;
+$ar-h2: 2rem - $ar-heading-ratio;
+$ar-h3: 1.75rem - $ar-heading-ratio;
+$ar-h4: 1.5rem - $ar-heading-ratio;
+$ar-h5: 1.25rem - $ar-heading-ratio;
+$ar-h6: 1rem - $ar-heading-ratio;
+
+:root {
+  --white: 0 0% 100%;
+  --black: 0 0% 4%;
+  --lightblack: 0 0% 25%;
+  --green: 171 95% 42%;
+  --blue: 211 100% 50%;
+  --red: 358 85% 52%;
+  --lightgrey: 225 29% 97%;
+  --gray: 0 0% 64%;
+  --darkgrey: 0 0% 20%;
+  --platinum: 249 4% 67%;
+  --gold: 33 48% 60%;
+  --yellow: 48 94% 61%;
+
+  --body-color: var(--lightblack);
+  --blue-shadow: 211 100% 50% / 0.4;
+  --red-shadow: 358 100% 64% / 0.4;
+  --blue-outline: 211 100% 71%;
+  --hrgray: 0 0% 29%;
+  --arrows: 0 0% 76%;
+
+  // Main colors
+  --main-color: var(--body-color);
+  --main-background: var(--white);
+  --main-button-color: var(--white);
+  --main-shadow: var(--blue-shadow);
+  --main-outline: var(--blue-outline);
+  --main-heading: var(--lightblack);
+  --brand-color: var(--blue);
+
+  // Hero background gradient colors
+  --hero-color1: 247 53% 21%;
+  --hero-color2: 349 94% 19%;
+
+  // Container width
+  --container-width: 100%;
+
+  @include b-600-up {
+    --container-width: 540px;
+  }
+
+  @include b-767-up {
+    --container-width: 720px;
+  }
+
+  @include b-991-up {
+    --container-width: 940px;
+  }
+
+  @include b-1199-up {
+    --container-width: 1140px;
+  }
+
+  @include b-1439-up {
+    --container-width: 1364px;
+  }
+
+  // Height of sticky header
+  --scroll-padding: 64px;
+
+  @include b-600-up {
+    --scroll-padding: 68px;
+  }
+
+  @include b-991-up {
+    --scroll-padding: 99px;
+  }
+}

@@ -1,0 +1,19 @@
+@use "../variables/mixins" as *;
+
+@include font-face('Roboto', '../../public/fonts/roboto-100', 100, "normal", 'woff');
+@include font-face('Roboto', '../../public/fonts/roboto-300', 300, "normal", 'woff');
+@include font-face('Roboto', '../../public/fonts/roboto-300italic', 300, "italic", 'woff');
+@include font-face('Roboto', '../../public/fonts/roboto-400', 400, "normal", 'woff');
+@include font-face('Roboto', '../../public/fonts/roboto-500', 500, "normal", 'woff');
+@include font-face('Roboto', '../../public/fonts/roboto-700', 700, "normal", 'woff');
+
+@include font-face('Almarai', '../../public/fonts/almarai-300', 300, "normal", 'woff');
+@include font-face('Almarai', '../../public/fonts/almarai-400', 400, "normal", 'woff');
+@include font-face('Almarai', '../../public/fonts/almarai-700', 700, "normal", 'woff');
+@include font-face('Almarai', '../../public/fonts/almarai-800', 800, "normal", 'woff');
+
+@include font-face('Montserrat', '../../public/fonts/montserrat-100', 100, "normal", 'woff');
+@include font-face('Montserrat', '../../public/fonts/montserrat-300', 300, "normal", 'woff');
+@include font-face('Montserrat', '../../public/fonts/montserrat-400', 400, "normal", 'woff');
+@include font-face('Montserrat', '../../public/fonts/montserrat-500', 500, "normal", 'woff');
+@include font-face('Montserrat', '../../public/fonts/montserrat-700', 700, "normal", 'woff');

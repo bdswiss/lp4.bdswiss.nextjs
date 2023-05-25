@@ -1,0 +1,42 @@
+[
+  {
+    "href": "#section-1",
+    "text": "Cards"
+  },
+  {
+    "href": "#section-2",
+    "text": "Steps"
+  },
+  {
+    "href": "#section-3",
+    "text": "List"
+  },
+  {
+    "href": "#section-4",
+    "text": "Bios"
+  },
+  {
+    "href": "#section-5",
+    "text": "Accounts"
+  },
+  {
+    "href": "#section-6",
+    "text": "Form"
+  },
+  {
+    "href": "#section-7",
+    "text": "Awards"
+  },
+  {
+    "type": "button",
+    "path": "/premium",
+    "href": "#section-8",
+    "text": "Competition",
+    "risk_warning": {
+      "include_terms": true,
+      "link": true,
+      "legal_type": "general",
+      "break": false
+    }
+  }
+]

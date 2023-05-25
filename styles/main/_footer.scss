@@ -1,0 +1,57 @@
+@use "../variables/screens" as *;
+
+.footer {
+  position: relative;
+  z-index: 1;
+
+  .black & {
+    color: hsl(var(--main-color));
+    background-color: hsl(var(--main-background));
+  }
+
+  h2,
+  p {
+    .black & {
+      color: hsl(var(--white));
+    }
+  }
+
+  a {
+    .black & {
+      color: hsl(var(--brand-color));
+    }
+  }
+
+  hr {
+    .black & {
+      border-top-color: hsl(var(--white));
+      opacity: .7;
+    }
+  }
+
+  .social-icons-wrapper {
+    .social-icons {
+      li {
+        a {
+          .social-icons-link-text {
+            span {
+              .black & {
+                border-bottom-color: hsl(var(--brand-color));
+              }
+            }
+          }
+
+          &:hover {
+            .social-icons-link-text {
+              span {
+                .black & {
+                  border-bottom-color: transparent;
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
